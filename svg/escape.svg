@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="62px" viewBox="0 0 61 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>escape</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M50.58,50.026 C50.58,51.012 49.801,51.813 48.838,51.813 L1.743,51.813 C0.78,51.813 0,51.012 0,50.026 L0,1.786 C0,0.8 0.78,7.10542736e-15 1.743,7.10542736e-15 L48.838,7.10542736e-15 C49.801,7.10542736e-15 50.58,0.8 50.58,1.786 L50.58,50.026 L50.58,50.026 Z" id="path-1"></path>
+        <filter x="-14.8%" y="-10.6%" width="129.7%" height="129.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M42.731,38.058 C42.731,41.35 40.388,44.02 37.499,44.02 L13.081,44.02 C10.191,44.02 7.849,41.35 7.849,38.058 L7.849,10.241 C7.849,6.949 10.192,4.281 13.081,4.281 L37.499,4.281 C40.389,4.281 42.731,6.949 42.731,10.241 L42.731,38.058 L42.731,38.058 Z" id="path-3"></path>
+        <filter x="-21.5%" y="-13.8%" width="143.0%" height="137.7%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="keyboard-layout" transform="translate(5.000000, 3.000000)">
+            <g id="escape" transform="translate(0.152000, 0.193000)">
+                <g id="esc">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#444444" stroke-width="1" xlink:href="#path-1"></use>
+                </g>
+                <g id="esc-face">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use stroke="#444444" stroke-width="1" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
